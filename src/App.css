@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tyle {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  height: 10vh;
+  width: 10vh;
+  background-size: cover;
+}
+
+.tyle--grass {
+  background-image: url(./images/grass.png);
+}
+
+.tyle--water {
+  background-image: url(./images/water.png);
+}
+
+.tyle--rock {
+  background-image: url(./images/rock.png);
+}
+
+.tyle--tree {
+  background-image: url(./images/tree.png);
+}
+
+.tyle--cow {
+  background-image: url(./images/cow.png);
+}
